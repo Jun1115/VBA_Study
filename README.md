@@ -35,3 +35,7 @@ https://www.youtube.com/watch?v=EmFIugafE4U
 - XVBA - MACRO LIST 에서 Export VBA를 통해 모듈을 생성하기 위해 Development 및 다른 선택지를 눌렀을 때 해당 오류 발생
 - 엑세스 접근 설정을 바꿔줌으로 해결
 - 엑셀 실행 ▶ 파일 ▶ 옵션 ▶ 보안센터 ▶ 매크로 설정 ▶ 모든 매크로 포함 체크 ▶ VBA 프로젝트 개체 모델에 안전하게 액세스할 수 있음 체크 
+
+~~~
+참고 : https://m.blog.naver.com/fjqmgnsdlk/221813821712
+~~~
