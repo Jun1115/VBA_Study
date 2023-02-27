@@ -80,6 +80,7 @@ https://www.youtube.com/watch?v=jUJNyH1_qMc&list=PLb_vgczBBiSQ3RxE4YAzCClKjdHzad
 - 개발도구 ▷ 삽입 ▷ 양식컨트롤 1번 ▷ 매크로 지정
 - 데이터 타입을 Integer 로 지정하여 만들어주니 Integer의 표현범위 최대값을 넘어서는 값이 나오면 "오버플로" 오류가 발생
 - 데이터타입을 Double 로 바꿔주니 해결됨
+- 버튼 옮기고 싶으면 Ctrl + 좌클릭으로 지정해주면 됨
 
 <img src="https://user-images.githubusercontent.com/114639257/221506974-38a2e75f-422e-48f0-9fee-219c435613ea.png" width="600">
 
