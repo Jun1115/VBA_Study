@@ -158,3 +158,8 @@ Worksheets("Sheet1").Cells(3, 5).Value = RE01
 
 End Sub
 ```
+
+### VBA 비교 연산자
+
+<img src="https://user-images.githubusercontent.com/114639257/221513789-6049e14f-d3e0-4048-96b0-c09d54a09421.png" width="600">
+
