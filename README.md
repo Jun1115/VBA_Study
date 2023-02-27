@@ -72,3 +72,5 @@ https://www.youtube.com/watch?v=jUJNyH1_qMc&list=PLb_vgczBBiSQ3RxE4YAzCClKjdHzad
 - 이름 바꾸기와 다른 이름으로 저장으로 xlsm파일을 만들었을 때 2KB 의 크기 차이가 나는 것을 볼 수 있었음
 - 예측컨대 다른 이름으로 저장할 때는 xlsm 파일을 구성하는 기본 데이터가 알아서 추가되어 저장되는 것이고 이름 바꾸기로 확장명만 바꾸니까 데이터가 없어서 파일이 손상된 것과 같은 모습인듯 
 
+### VBA 숫자형 데이터타입 표현범위
+https://user-images.githubusercontent.com/114639257/221504928-a2db9866-7cfb-4000-b82b-6c9a085a4877.png
