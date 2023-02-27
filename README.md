@@ -59,6 +59,9 @@ Dim 변수이름 As 데이터타입
 
 프로시저란 ?
 
+~~~
+https://www.youtube.com/watch?v=jUJNyH1_qMc&list=PLb_vgczBBiSQ3RxE4YAzCClKjdHzad23q&index=5
+~~~
 
 
 
