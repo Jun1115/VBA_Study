@@ -39,3 +39,7 @@ https://www.youtube.com/watch?v=EmFIugafE4U
 ~~~
 참고 : https://m.blog.naver.com/fjqmgnsdlk/221813821712
 ~~~
+
+
+### 객체란 무엇인가
+- Ex) 자동차.색상 = 파란색, 객체.속성 = 
