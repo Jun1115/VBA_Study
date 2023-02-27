@@ -76,3 +76,53 @@ https://www.youtube.com/watch?v=jUJNyH1_qMc&list=PLb_vgczBBiSQ3RxE4YAzCClKjdHzad
 
 <img src="https://user-images.githubusercontent.com/114639257/221504928-a2db9866-7cfb-4000-b82b-6c9a085a4877.png" width="600">
 
+### 계산기 
+- 개발도구 ▷ 삽입 ▷ 양식컨트롤 1번 ▷ 매크로 지정
+- 데이터 타입을 Integer 로 지정하여 만들어주니 Integer의 표현범위 최대값을 넘어서는 값이 나오면 "오버플로" 오류가 발생
+- 데이터타입을 Double 로 바꿔주니 해결됨
+
+```
+
+Sub OP_PLUS()  '더하기 연산 프로시저
+Dim PARM01 As Double
+Dim PARM02 As Double
+Dim RE01 As Double
+PARM01 = Worksheets("SHEET1").Cells(3, 2).Value
+PARM02 = Worksheets("SHEET1").Cells(3, 3).Value
+RE01 = PARM01 + PARM02
+Worksheets("SHEET1").Cells(3, 4).Value = RE01
+End Sub
+
+
+Sub OP_MINUS()  '빼기 연산 프로시저
+Dim PARM01 As Double
+Dim PARM02 As Double
+Dim RE01 As Double
+PARM01 = Worksheets("SHEET1").Cells(3, 2).Value
+PARM02 = Worksheets("SHEET1").Cells(3, 3).Value
+RE01 = PARM01 - PARM02
+Worksheets("SHEET1").Cells(3, 4).Value = RE01
+End Sub
+
+Sub OP_MULTI()  '곱하기 연산 프로시저
+Dim PARM01 As Double
+Dim PARM02 As Double
+Dim RE01 As Double
+PARM01 = Worksheets("SHEET1").Cells(3, 2).Value
+PARM02 = Worksheets("SHEET1").Cells(3, 3).Value
+RE01 = PARM01 * PARM02
+Worksheets("SHEET1").Cells(3, 4).Value = RE01
+End Sub
+
+
+Sub OP_DIV()  '나누기 연산 프로시저
+Dim PARM01 As Double
+Dim PARM02 As Double
+Dim RE01 As Double
+PARM01 = Worksheets("SHEET1").Cells(3, 2).Value
+PARM02 = Worksheets("SHEET1").Cells(3, 3).Value
+RE01 = PARM01 / PARM02
+Worksheets("SHEET1").Cells(3, 4).Value = RE01
+End Sub
+
+```
