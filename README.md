@@ -161,5 +161,14 @@ End Sub
 
 ### VBA 비교 연산자
 
+- 소문자 > 대문자
+- 순서가 빠를 수록 작다 Ex) a < b, 가 < 나
+
 <img src="https://user-images.githubusercontent.com/114639257/221513789-6049e14f-d3e0-4048-96b0-c09d54a09421.png" width="600">
+
+### VBA 논리 연산자
+
+- and or not
+
+### VBA 종합실습
 
