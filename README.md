@@ -172,3 +172,6 @@ End Sub
 
 ### VBA 종합실습
 
+<img src="https://user-images.githubusercontent.com/114639257/221516255-599a0a7f-16a0-4982-a0ac-8a0034458e37.png" width="600">
+
+
