@@ -129,3 +129,32 @@ Worksheets("SHEET1").Cells(3, 4).Value = RE01
 End Sub
 
 ```
+
+### VBA 조건문을 사용한 계산기
+
+```
+Sub F07_01 ()
+
+Dim INPUT01 As Integer
+Dim INPUT02 As Integer
+Dim OPP As String
+Dim RE01 As Integer
+
+INPUT01 = Worksheets("Sheet1").Cells(3, 2).Value
+INPUT02 = Worksheets("Sheet1").Cells(3, 3).Value
+OPP = Worksheets("Sheet1").Cells(3, 4).Value
+
+If OPP = "+" Then
+RE01 = INPUT01 + INPUT02
+ElseIf OPP = "-" Then
+RE01 = INPUT01 - INPUT02
+ElseIf OPP = "*" Then
+RE01 = INPUT01 * INPUT02
+ElseIf OPP = "/" Then
+RE01 = INPUT01 / INPUT02
+End If
+
+Worksheets("Sheet1").Cells(3, 5).Value = RE01
+
+End Sub
+```
