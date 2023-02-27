@@ -45,6 +45,20 @@ https://www.youtube.com/watch?v=EmFIugafE4U
 - Ex) 자동차.색상 = 파란색, 객체.속성 = 값
 
 ### 엑셀에서의 객체는
-워크북 - 워크시트 - 
+워크북 - 워크시트 - 셀
+
+### 변수 설정
+dimension 의 줄임말 Dim
+
+Dim 변수이름 As 데이터타입
+변수이름 = ~~ 
+
+"" = string
+없으면 Number
+
+
+프로시저란 ?
+
+
 
 
