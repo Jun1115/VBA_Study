@@ -175,5 +175,29 @@ End Sub
 <img src="https://user-images.githubusercontent.com/114639257/221516255-599a0a7f-16a0-4982-a0ac-8a0034458e37.png" width="600">
 
 ### VBA Select Case문
+- 특정 상황에서 if문 보다 간결해짐
+- 제어문 : 조건문(분기문ㆍ 반복문)
 
+### for next
+- 자동증가변수
 
+### 배열변수
+- VBA 도 숫자는 0부터
+- 변수 선언 똑같은데 크기 설정만 다름 Ex) Dim test(123) As Integer = 크기가 124개인 배열 변수 선언
+
+#### 실습
+- 구구단
+
+~~~
+Sub test()
+
+Dim a, b As Integer
+For b = 1 To 9
+For a = 1 To 9
+Worksheets("Sheet1").Cells(a, b).Value = a * b
+Next a
+Next b
+
+End Sub
+
+~~~
