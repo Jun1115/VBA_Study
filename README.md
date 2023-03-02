@@ -185,7 +185,7 @@ End Sub
 - VBA 도 숫자는 0부터
 - 변수 선언 똑같은데 크기 설정만 다름 Ex) Dim test(123) As Integer = 크기가 124개인 배열 변수 선언
 
-#### 실습
+#### 실습 1
 - 구구단
 
 ~~~
@@ -198,6 +198,7 @@ Worksheets("Sheet1").Cells(a, b).Value = a * b
 Next a
 Next b
 
-End Sub
-
 ~~~
+
+#### 실습 2 
+- 매출
