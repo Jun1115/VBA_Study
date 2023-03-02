@@ -202,3 +202,38 @@ Next b
 
 #### 실습 2 
 - 매출
+
+~~~
+Sub 매출과성과()
+
+Dim i, T As Integer
+
+For i = 5 To 12
+
+Worksheets("매출과성과").Cells(i, 4).Value = Worksheets("매출과성과").Cells(i, 3).Value * 3 / 2
+
+Worksheets("매출과성과").Cells(i, 6).Value = Str(Int(Worksheets("매출과성과").Cells(i, 4).Value / Worksheets("매출과성과").Cells(i, 5).Value * 100)) + "%"
+
+T = Int(Worksheets("매출과성과").Cells(i, 4).Value / Worksheets("매출과성과").Cells(i, 5).Value * 100)
+
+If T >= 90 Then
+Worksheets("매출과성과").Cells(i, 7).Value = "A"
+
+ElseIf 90 > T And T >= 80 Then
+Worksheets("매출과성과").Cells(i, 7).Value = "B"
+
+ElseIf 80 > T And T >= 70 Then
+Worksheets("매출과성과").Cells(i, 7).Value = "C"
+
+ElseIf 70 > T And T >= 60 Then
+Worksheets("매출과성과").Cells(i, 7).Value = "D"
+
+Else
+Worksheets("매출과성과").Cells(i, 7).Value = "F"
+
+End If
+
+Next
+
+End Sub
+~~~
