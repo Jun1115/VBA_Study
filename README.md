@@ -260,3 +260,31 @@ Rnd의 최댓값이 0.99....9이면 Rnd × N 의 값은 9.99....9이고 Int(Rnd 
 ### 주석
 ' or " 을 문장 앞에 쓰면 주석처리 
 
+## VBA 함수
+
+### Left, Rigth 함수
+- LEFT,RIGHT(A, B) 인자 2개 문자열 A를 왼쪽ㆍ오른쪽부터 B번까지만 출력
+
+### MID 함수
+- MID(A, B, C) 인자 3개 문자열 A를 B번 인덱스부터 C 갯수의 문자열 출력
+
+### LEN 함수
+- LEN(A) 문자열 A의 길이 반환
+
+### REPLACE 함수
+- REPLACE(A, B, C) A 대상 B 변경 대상 C 대체값
+
+### NOW, DATE, TIME 함수
+- DATE 년원일 TIME 시분초 DATE+TIME = NOW
+
+### 날짜 부분처리 함수
+- YEAR(), MONTH(), DAY(), HOUR(), MINUTE(), SECOND(), WEEKDAY()
+- 기본 순서(일-토), 요일은 한글 혹은 영어가 아닌 숫자로 처리 Ex) 일 ▶ 1, 금 ▶ 6 
+
+### 시간차 계산 함수
+- DATEDIFF(A, B, C) A는 시간차를 나타낼 단위, B와 C 사이의 차이
+- 나이 계산 할 수 있음
+
+### 시간 이동 함수
+- DATEADD(A, B, C) A는 시간을 이동할 단위, B는 이동할 범위, C는 기준이 될 날짜
+
