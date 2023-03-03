@@ -288,3 +288,35 @@ Rnd의 최댓값이 0.99....9이면 Rnd × N 의 값은 9.99....9이고 Int(Rnd 
 ### 시간 이동 함수
 - DATEADD(A, B, C) A는 시간을 이동할 단위, B는 이동할 범위, C는 기준이 될 날짜
 
+## 실전연습
+
+### 1. 데이터 주고 받기
+
+~~~
+Sub 실전연습1()
+
+Dim i1, i2, i3 As Integer
+Dim str As String
+
+For i3 = 1 To 10
+
+    For i1 = 1 To 9
+
+        If Worksheets("Sheet1").Cells(1, i1).Value = Worksheets("Sheet2").Cells(1, i3).Value Then
+
+            For i2 = 2 To 45
+
+                Worksheets("Sheet2").Cells(i2, i3).Value = Worksheets("Sheet1").Cells(i2, i1).Value
+                
+            Next i2
+        
+        Exit For
+        
+        End If
+
+    Next i1
+
+Next i3
+
+End Sub
+~~~
